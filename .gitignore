@@ -1,0 +1,63 @@
+# ==============================
+# Build Artifacts
+# ==============================
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# ==============================
+# Maven Wrapper
+# ==============================
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# IDE Settings
+# ==============================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / Spring Tool Suite
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==============================
+# Logs & Temp Files
+# ==============================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# ==============================
+# OS Specific
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Exceptions - allow nested src targets if any
+# ==============================
+!**/src/main/**/target/
+!**/src/test/**/target/
